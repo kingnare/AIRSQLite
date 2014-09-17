@@ -5,7 +5,9 @@ AS for SQLite
 
 First:
 
-var file:File = new File(File.applicationStorageDirectory.nativePath+"/db/demo.sqlite");
+
+                var file:File = new File(File.applicationStorageDirectory.nativePath+"/db/demo.sqlite");
+
                 if(!file.exists)
                 {
                     var dbFile:File = new File(File.applicationDirectory.nativePath+"/db/torrent.sqlite");
